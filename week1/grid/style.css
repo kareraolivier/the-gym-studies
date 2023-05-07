@@ -1,0 +1,29 @@
+body {
+  max-width: 1500px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+::scroll-behavior {
+  scroll-behavior: scroll;
+}
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  place-items: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  align-content: center;
+  margin: 10px;
+}
+.grid > div {
+  background: #ede7f6;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
