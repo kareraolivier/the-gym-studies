@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>thegym grid</title>
+</head>
+
+<body>
+    <h1 class="text-3xl font-bold underline">the gym</h1>
+    <div class="box">
+        <div class="box-item1"></div>
+        <!-- <div class="box-item2">f</div> -->
+    </div>
+    <div class="position">
+        <h1>The position property css</h1>
+
+        <h2>position: static;</h2>
+        <p>The Parent1 element has position: static, and will remain in the natural flow of the page.
+            It will NOT act as anchor point for the absolutely positioned Child1 element:</p>
+        <div id="parent1">ParentOne: position: static.
+            <div id="child1">ChildOne: position: absolute, </div>
+        </div>
+
+        <h2>position: relative;</h2>
+        <p>The ParentTwo element has position: relative, and will remain in the natural flow of the page.
+            It will also act as anchor point for the absolutely positioned Child2 element:</p>
+        <div id="parent2">ParentTwo: position: relative.
+            <div id="child2">ChildTwo: position: absolute, </div>
+        </div>
+
+        <h2>position: absolute;</h2>
+        <p>The ParentThree element has position: absolute, and will NOT remain in the natural flow of the page.
+            It will position itself according to the closest positioned ancestor.
+            It will also act as anchor point for the absolutely positioned Child3 element:</p>
+        <div id="parent3">ParentThree
+            <div id="child3">ChildThree: position: absolute, </div>
+        </div>
+
+        <h2>position: fixed;</h2>
+        <p>The ParentFour element has position: fixed, and will NOT remain in the natural flow of the page.
+            It will position itself according to the viewport.
+            It will also act as anchor point for the absolutely positioned Child4 element:</p>
+        <div id="parent4">ParentFour
+            <div id="child4">ChildFour: position: absolute, </div>
+        </div>
+    </div>
+</body>
+
+</html>
