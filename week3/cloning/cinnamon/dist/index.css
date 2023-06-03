@@ -1,0 +1,57 @@
+.header {
+  background: transpalent;
+  color: white;
+}
+.homesection {
+  background: url("./image/noise.png");
+
+  width: 100%;
+  background-color: #1c1c1c;
+}
+.homebutton {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.newimage {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: #000;
+  border-radius: 50%;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  box-shadow: 0px 17px 34px -9px rgba(5, 103, 211, 0.15);
+  cursor: pointer;
+}
+.rotatetion {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+.navbar-scrolled {
+  background: #ffffff;
+}
+.navbar-scrolled li {
+  color: black;
+}
+.navbar-scrolled a {
+  color: black;
+}
+.serviceone {
+  background-color: #ffcb47;
+  max-width: 1660px;
+  margin: auto;
+  overflow: hidden;
+}
+.servicetwo {
+  background-color: #91f1c3;
+}
+.servicethree {
+  background-color: #50227d;
+}
+.title {
+  font-family: "MontBold";
+  font-style: normal;
+  font-size: 40px;
+  line-height: 56px;
+}

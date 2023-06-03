@@ -1,0 +1,15 @@
+{
+  "name": "tailiwind",
+  "version": "1.0.0",
+  "description": "learn tailiwind",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss-cli build src/style.css -o dist/style.css"
+  },
+  "author": "karera",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.2",
+    "tailwindcss-cli": "^0.1.2"
+  }
+}
